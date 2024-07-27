@@ -13,7 +13,7 @@ let SuggestedFollowCard = ({name, data}) => {
                 })}
             </div>
         </div>
-    </div>
+    </div> 
 }
 
 export default SuggestedFollowCard;

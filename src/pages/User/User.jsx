@@ -8,7 +8,7 @@ import LeftSideCardPanel from '../../utils/Cards/LeftSideCardPanel/LeftSideCardP
 import SuggestedFollowCard from '../../utils/UserProfileUtils/SuggestedFollowCard/SuggestedFollowCard'
 import ProfileWidget from '../../utils/UserProfileUtils/ProfileWidget/ProfileWidget'
 
-import userImg from '/images/koushil.jpg';
+import userImg from '/images/user.png';
 
 const User = () => {
 
@@ -24,16 +24,16 @@ const User = () => {
         {title: "Order History", hash: "order-history"},
         {title: "My Address", hash: "my-address"},
         {title: "Favorite Orders", hash: "favorite-orders"},
-    ];
+    ]; 
     let data5 = [ 
         {title: "Yours Booking", hash: "bookings"},
     ];
 
     let data3 = [
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"},
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"},
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"},
-        {userId: 123, imgSrc:userImg, userName: "Koushil Mankali", reviews: 200, followers: "123"}
+        {userId: 123, imgSrc:userImg, userName: "User1", reviews: 200, followers: "123"},
+        {userId: 123, imgSrc:userImg, userName: "User2", reviews: 200, followers: "123"},
+        {userId: 123, imgSrc:userImg, userName: "User3", reviews: 200, followers: "123"},
+        {userId: 123, imgSrc:userImg, userName: "User4", reviews: 200, followers: "123"}
     ]
 
     let data4 = {

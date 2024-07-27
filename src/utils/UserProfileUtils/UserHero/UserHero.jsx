@@ -11,7 +11,7 @@ import EditProfileModal from '../../../Modals/EditProfileModal/EditProfileModal'
 
 const UserHero = () => {
   const [modal, setModal] = useState(false)
-
+ 
   return <>
     <div className={css.outerDiv}>
         <div className={css.innerDiv}>
